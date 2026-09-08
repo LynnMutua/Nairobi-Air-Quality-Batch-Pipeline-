@@ -1,0 +1,17 @@
+[project]
+name = "nairobi-air-quality-batch-pipeline"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Gacheri-Mutua", email = "gacherimutua@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = []
+
+[project.scripts]
+nairobi-air-quality-batch-pipeline = "nairobi_air_quality_batch_pipeline:main"
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"
