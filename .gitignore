@@ -1,0 +1,7 @@
+.env.example
+/logs
+.venv
+.venv-1
+airflow_env
+.pytest_cache
+__pycache__

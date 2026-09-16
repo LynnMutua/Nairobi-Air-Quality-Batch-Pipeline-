@@ -1,0 +1,13 @@
+.git
+.gitignore
+.env
+.env.*
+.venv
+airflow_env
+__pycache__
+*.py[cod]
+.pytest_cache
+.ipynb_checkpoints
+.DS_Store
+logs/
+*.sqlite3
