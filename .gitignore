@@ -1,7 +1,11 @@
-.env.example
+.env
+.env.*
+!.env.example
+.dockerignore
 /logs
 .venv
 .venv-1
 airflow_env
 .pytest_cache
 __pycache__
+/.python-version
